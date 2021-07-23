@@ -110,8 +110,9 @@ public class Car {
         System.out.println("Поворот налево");
     }
 
-    public void printInfo() { System.out.println("Car model " + getMarka() + "\n" + getClassCar() + "\n" + getWeight() +
-            "\n"+ driver+"\n"+ engine);}
+    public void printInfo () {
+        System.out.println(toString());
+    }
 }
 
 
