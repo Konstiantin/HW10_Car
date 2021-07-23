@@ -2,13 +2,22 @@ package com.company.vehicles;
 
 import java.util.Objects;
 
-public class SportCar extends Car{
-    int carrying;
+public class SportCar extends Car {
+
+    int Speed;
+
+    public int getSpeed() {
+        return Speed;
+    }
+
+    public void setSpeed(int speed) {
+        this.Speed = speed;
+    }
 
     @Override
     public String toString() {
         return "SportCar{" +
-                "carrying=" + carrying +
+                "speed=" + Speed +
                 '}';
     }
 
@@ -16,17 +25,14 @@ public class SportCar extends Car{
     public boolean equals(Object o) {
         if (this == o) return true;
         if (!(o instanceof SportCar)) return false;
+        if (!super.equals(o)) return false;
         SportCar sportCar = (SportCar) o;
-        return carrying == sportCar.carrying;
+        return Speed == sportCar.Speed;
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(carrying);
-    }
-
-    public SportCar(String model, String classCar, int weight) {
-        super(model, classCar, weight);
+        return Objects.hash(super.hashCode(), Speed);
     }
 
 }

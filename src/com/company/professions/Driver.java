@@ -6,6 +6,11 @@ public class Driver extends Person{
 
     public int experience;
 
+
+    public void setExperience(int experience) { this.experience = experience; }
+    public int getExperience() { return experience; }
+
+
     @Override
     public String toString() { return "Driver{" + "Стаж вождения: " + experience + '}'; }
 
