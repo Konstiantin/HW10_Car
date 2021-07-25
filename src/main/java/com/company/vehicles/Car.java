@@ -26,9 +26,9 @@ public class Car {
     private Driver driver;
     private Engine engine;
 
-    public Car() {
-
+    public Car(int speed, String marka, String classCar, int weight, Driver driver, Engine engine) {
     }
+
 
     @Override
     public String toString() {
@@ -54,39 +54,21 @@ public class Car {
         return marka;
     }
 
-    public void setMarka(String marka) {
-        this.marka = marka;
-    }
+    public void setMarka(String marka) { this.marka = marka; }
 
-    public String getClassCar() {
-        return classCar;
-    }
+    public String getClassCar() { return classCar; }
 
-    public void setClassCar(String classCar) {
-        this.classCar = classCar;
-    }
+    public void setClassCar(String classCar) { this.classCar = classCar; }
 
-    public int getWeight() {
-        return weight;
-    }
+    public int getWeight() { return weight; }
 
-    public void setWeight(int weight) {
-        this.weight = weight;
-    }
+    public void setWeight(int weight) { this.weight = weight; }
 
-    public Driver getDriver() {
-        return driver;
-    }
+    public Driver getDriver() { return driver; }
 
-    public void setDriver() { this.driver = driver; }
+    public void setDriver(Driver driver) { this.driver = driver; }
 
-    public Engine getEngine() {
-        return engine;
-    }
-
-    public void setEngine() {
-        this.engine = engine;
-    }
+    public void setEngine(Engine engine) { this.engine = engine; }
 
     public Car(String marka, String classCar, int weight, Driver driver, Engine engine) {
         this.marka = marka;

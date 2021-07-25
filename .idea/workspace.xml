@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f48b463e-7554-4e0b-b3c1-ec08a42f1b5f" name="Default Changelist" comment="HW10_Car">
+    <list default="true" id="f48b463e-7554-4e0b-b3c1-ec08a42f1b5f" name="Default Changelist" comment="HW10_Car_Last">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/professions/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/professions/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/vehicles/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/vehicles/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/vehicles/Lorry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/vehicles/Lorry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/vehicles/SportCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/vehicles/SportCar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/details/Engine.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/details/Engine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/professions/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/professions/Driver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/professions/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/professions/Person.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/company/vehicles/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/vehicles/Car.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/company/vehicles/Lorry.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/vehicles/Lorry.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/company/vehicles/SportCar.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/vehicles/SportCar.class" afterDir="false" />
@@ -48,8 +47,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="com.google.cloudcode.ide_session_index" value="20210723_0002" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Hillel/src/main/java/KostiantynViunichenko" />
+    <property name="com.google.cloudcode.ide_session_index" value="20210725_0000" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Hillel" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -122,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627069640767</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="HW10_Car_Last">
+      <created>1627074278377</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1627074278377</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -130,7 +136,20 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="BEK_SORT_TYPE" value="1" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/HW_Car" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -139,6 +158,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="HW10_Car" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW10_Car" />
+    <MESSAGE value="HW10_Car_Last" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW10_Car_Last" />
   </component>
 </project>

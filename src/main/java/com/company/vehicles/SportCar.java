@@ -18,11 +18,12 @@ public class SportCar extends Car {
         return speed;
     }
 
-    public void setSpeed(int speed) {
+    protected void setSpeed(int speed) {
         this.speed = speed;
     }
 
-    public SportCar(int speed) {
+    public SportCar(int speed,String marka,String classCar,int weight,Driver driver,Engine engine) {
+        super(speed,marka,classCar,weight,driver,engine);
         this.speed = speed;
     }
 
